@@ -16,6 +16,11 @@ cp -f clover.world /home/clover/catkin_ws/src/clover/clover_simulation/resources
 
 # Launch
 cp -f simulator.launch /home/clover/catkin_ws/src/clover/clover_simulation/launch/
+cp -f clover.launch /home/clover/catkin_ws/src/clover/clover/launch/
+cp -f aruco.launch /home/clover/catkin_ws/src/clover/clover/launch/
+
+# Map
+cp -f map.txt /home/clover/catkin_ws/src/clover/aruco_pose/map/
 
 cd ..
 rm -rf innopolis_open_feb2021
