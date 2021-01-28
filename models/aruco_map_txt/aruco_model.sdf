@@ -1720,6 +1720,42 @@
                 </material>
                 <transparency>0.5</transparency>
             </visual>
+
+            <visual name="punktir1">
+                <pose>2.0 7.0 0.0 0.0 0.0 1.57079632679</pose>
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <box>
+                        <size>4.5 4.5 1e-4</size>
+                    </box>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>model://aruco_map_txt/materials/scripts</uri>
+                        <uri>model://aruco_map_txt/materials/textures</uri>
+                        <name>aruco/punktir</name>
+                    </script>
+                </material>
+                <transparency>0.5</transparency>
+            </visual>
+
+            <visual name="punktir2">
+                <pose>7.0 2.0 0.0 0.0 0.0 1.57079632679</pose>
+                <cast_shadows>false</cast_shadows>
+                <geometry>
+                    <box>
+                        <size>4.5 4.5 1e-4</size>
+                    </box>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>model://aruco_map_txt/materials/scripts</uri>
+                        <uri>model://aruco_map_txt/materials/textures</uri>
+                        <name>aruco/punktir</name>
+                    </script>
+                </material>
+                <transparency>0.5</transparency>
+            </visual>
         </link>
     </model>
 </sdf>

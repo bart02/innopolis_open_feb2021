@@ -17,7 +17,7 @@
     
     <!-- dronepoint -->
     <include>
-      <uri>model://dronepoint_green</uri>
+      <uri>model://dronepoint_yellow</uri>
       <name>D1</name>
       <pose>8 2 0 0 0 0</pose>
     </include>
@@ -27,13 +27,8 @@
       <pose>3 6 0 0 0 0</pose>
     </include>
     <include>
-      <uri>model://dronepoint_yellow</uri>
-      <name>D3</name>
-      <pose>1 2 0 0 0 0</pose>
-    </include>
-    <include>
       <uri>model://dronepoint_red</uri>
-      <name>D4_red</name>
+      <name>D3</name>
       <pose>7.7 8.0 0 0 0 0</pose>
     </include>
 
