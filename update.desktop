@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Update Field
+Comment=Script for field updating on Innopolis Open Olympiad
+Exec=/bin/bash -c 'python /home/clover/.innoopen/update.py'
+Icon=/home/clover/.innoopen/icon.png
+Terminal=true
