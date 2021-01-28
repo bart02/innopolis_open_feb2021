@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-git clone https://github.com/bart02/innopolis_open_feb2021.git --branch junior
+git clone https://github.com/bart02/innopolis_open_feb2021.git --branch senior
 cd innopolis_open_feb2021
 
 # Update script
