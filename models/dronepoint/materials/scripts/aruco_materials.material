@@ -1,0 +1,63 @@
+material faces/einstein
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture einstein.png
+                filtering none
+                scale 1.0 1.0
+            }
+        }
+    }
+}
+
+material faces/jack
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture jack.png
+                filtering none
+                scale 1.0 1.0
+            }
+        }
+    }
+}
+
+material faces/sherlock
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture sherlock.png
+                filtering none
+                scale 1.0 1.0
+            }
+        }
+    }
+}
+
+material faces/silverhand
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture silverhand.png
+                filtering none
+                scale 1.0 1.0
+            }
+        }
+    }
+}

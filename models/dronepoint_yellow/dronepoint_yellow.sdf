@@ -19,6 +19,21 @@
           </mesh>
         </geometry>
       </visual>
+      <visual name="face">
+        <pose>1.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+            <box>
+                <size>1 1 1e-2</size>
+            </box>
+        </geometry>
+        <material>
+          <script>
+              <uri>model://dronepoint/materials/scripts</uri>
+              <uri>model://dronepoint/materials/textures</uri>
+              <name>faces/silverhand</name>
+          </script>
+        </material>
+      </visual>
     </link>
   </model>
 </sdf>

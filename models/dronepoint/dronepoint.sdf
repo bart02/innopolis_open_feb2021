@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="dronepoint_red">
+  <model name="dronepoint">
     <static>true</static>
-    <link name="link">
+    <link name="dp_with_face">
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://dronepoint_red/meshes/dronepoint.dae</uri>
+            <uri>model://dronepoint/meshes/dronepoint.dae</uri>
             <scale>0.3 0.3 0.2</scale>
           </mesh>
         </geometry>
@@ -14,10 +14,13 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://dronepoint_red/meshes/dronepoint.dae</uri>
+            <uri>model://dronepoint/meshes/dronepoint.dae</uri>
             <scale>0.3 0.3 0.2</scale>
           </mesh>
         </geometry>
+        <!-- <material>
+          <ambient>1 0 0 1</ambient>
+        </material> -->
       </visual>
       <visual name="face">
         <pose>1.0 0.0 0.0 0.0 0.0 0.0</pose>
@@ -30,7 +33,7 @@
           <script>
               <uri>model://dronepoint/materials/scripts</uri>
               <uri>model://dronepoint/materials/textures</uri>
-              <name>faces/einstein</name>
+              <name>faces/oleg</name>
           </script>
         </material>
       </visual>
