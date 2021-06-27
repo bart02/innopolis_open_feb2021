@@ -35,4 +35,4 @@ with open(fn, 'w') as file:
     file.writelines( data )
 
 print("Updated. Press any key to exit...")
-input()
+raw_input()
